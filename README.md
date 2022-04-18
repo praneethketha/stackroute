@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## PRMC1 - HTML5 & CSS3
 
 ### Basic Exercise-3
@@ -36,3 +37,7 @@ The color of the perceding hyperlinks should change to green, when the user hove
 - Add a copyright in footer section.
 - Finally the page should appear as shown in the following figure.
 ![HomePage](screenshots/food_planet.gif)"# stackroute_practice" 
+=======
+# stackroute
+It is repository to practice stack route related practice questions.
+>>>>>>> d5070c3c997013f30ce5b17ffcd9a21a7cf1bd9b
