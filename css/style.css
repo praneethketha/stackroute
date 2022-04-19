@@ -1,0 +1,176 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 50px;
+}
+
+/* logo section */
+.logo_section {
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(120, 0, 0), rgb(231, 0, 0));
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem 1rem 0;
+}
+
+.logo_section img {
+    width: 200px;
+}
+
+.left_section {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+}
+
+
+.left_section>div>a {
+    border-right: 1px solid #666;
+    color: #fff;
+    padding: 0 0.4rem;
+    text-decoration: none;
+}
+
+.left_section>div a:last-child {
+    border-right: 0;
+}
+
+.left_section div:last-child {
+    color: #fff;
+    text-align: right;
+}
+
+
+/* navigation section */
+nav {
+    align-items: center;
+    background-image: linear-gradient(45deg, rgb(231, 0, 0), rgb(120, 0, 0));
+    display: flex;
+    padding: 1rem;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 2.5rem;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #1dff1d;
+}
+
+
+/* recipe section */
+.recipe_section {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 1rem;
+}
+
+.recipe_section aside:first-child {
+    margin-right: 1rem;
+}
+
+h2 {
+    color: rgb(120, 0, 0);
+    font-family: Monotype Corsiva;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.recipe_section aside div {
+    padding: 0 1rem;
+}
+
+.recipe_section>aside .grid_images {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, auto);
+}
+
+.recipe_section>aside .grid_images article {
+    color: rgb(120, 0, 0);
+    cursor: pointer;
+    font-size: 1.1rem;
+    height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    }
+    
+    .recipe_section aside:first-child .grid_images article div {
+        border: 0.3rem solid blanchedalmond;
+        border-radius: 0.375rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        margin-bottom: 0.5rem;
+        padding: 0.4rem;
+}
+
+.recipe_section>aside .grid_images article img {
+    height: 200px;
+    width: 100%;
+}
+
+
+/* quick menu section */
+.qucik_menu p {
+    background: rgb(120, 0, 0);
+    color: #fff;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    text-transform: capitalize;
+}
+
+.qucik_menu p:hover {
+    background: #666;
+    color: #1dff1d;
+    cursor: pointer;
+}
+
+
+/* introdcution section */
+.introdcution_section {
+    padding: 1rem;
+}
+
+.introdcution_section h2 {
+    margin-bottom: 0;
+}
+
+.introdcution_section p {
+    color: #666;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+/* footer section */
+
+footer {
+    background: rgb(120, 0, 0);
+    color: #fff;
+    padding: 1rem 1rem 1rem 17vh;
+}
